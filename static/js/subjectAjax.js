@@ -1,0 +1,200 @@
+//sr kyla dunna 1
+
+/*var div = document.createElement('div');
+var container = document.getElementById("container");
+container.appendChild(div);
+var rem = document.getElementById("remvable");
+container.removeChild(rem); */
+
+$(document).ready(function(){
+	
+                 $("#oScienceL").click(function(){
+                   $("#home").hide();
+                   $("#oSinhala").hide();
+                   $("#oHistory").hide();
+                   $("#aBiology").hide();
+                    $("#aChemistry").hide();
+                    $("#aPhysics").hide();
+                   $("#aLogic").hide();
+                   $("#aGeogrophy").hide();
+                   $("#aMedia").hide();
+                   $("#aEcon").hide();
+                   $("#aBusiness").hide();
+                   $("#aAccount").hide();
+                   $("#oScience").show();
+    });
+                 $("#oSinhalaL").click(function(){
+                   $("#home").hide();
+                   $("#oScience").hide();
+                   $("#oHistory").hide();
+                   $("#aBiology").hide();
+                    $("#aChemistry").hide();
+                    $("#aPhysics").hide();
+                   $("#aLogic").hide();
+                   $("#aGeogrophy").hide();
+                   $("#aMedia").hide();
+                   $("#aEcon").hide();
+                   $("#aBusiness").hide();
+                   $("#aAccount").hide();
+                   $("#oSinhala").show();
+    });
+                  $("#oHistoryL").click(function(){
+                   $("#home").hide();
+                   $("#oScience").hide();
+                   $("#oSinhala").hide();
+                   $("#aBiology").hide();
+                    $("#aChemistry").hide();
+                    $("#aPhysics").hide();
+                   $("#aLogic").hide();
+                   $("#aGeogrophy").hide();
+                   $("#aMedia").hide();
+                   $("#aEcon").hide();
+                   $("#aBusiness").hide();
+                   $("#aAccount").hide();
+                   $("#oHistory").show();
+    });
+                  $("#aBiologyL").click(function(){
+                   $("#home").hide();
+                   $("#oScience").hide();
+                   $("#oSinhala").hide();
+                   $("#oHistory").hide();
+                    $("#aChemistry").hide();
+                    $("#aPhysics").hide();
+                   $("#aLogic").hide();
+                   $("#aGeogrophy").hide();
+                   $("#aMedia").hide();
+                   $("#aEcon").hide();
+                   $("#aBusiness").hide();
+                   $("#aAccount").hide();
+                   $("#aBiology").show();
+    });
+                   $("#aChemistryL").click(function(){
+                   $("#home").hide();
+                   $("#oScience").hide();
+                   $("#oSinhala").hide();
+                   $("#oHistory").hide();
+                   $("#aBiology").hide();
+                    $("#aPhysics").hide();
+                   $("#aLogic").hide();
+                   $("#aGeogrophy").hide();
+                   $("#aMedia").hide();
+                   $("#aEcon").hide();
+                   $("#aBusiness").hide();
+                   $("#aAccount").hide();
+                   $("#aChemistry").show();
+    });
+                    $("#aPhysicsL").click(function(){
+                   $("#home").hide();
+                   $("#oScience").hide();
+                   $("#oSinhala").hide();
+                   $("#oHistory").hide();
+                   $("#aBiology").hide();
+                    $("#aChemistry").hide();
+                   $("#aLogic").hide();
+                   $("#aGeogrophy").hide();
+                   $("#aMedia").hide();
+                   $("#aEcon").hide();
+                   $("#aBusiness").hide();
+                   $("#aAccount").hide();
+                   $("#aPhysics").show();
+    });
+
+                    $("#aLogicL").click(function(){
+                   $("#home").hide();
+                   $("#oScience").hide();
+                   $("#oSinhala").hide();
+                   $("#oHistory").hide();
+                   $("#aBiology").hide();
+                    $("#aChemistry").hide();
+                   $("#aPhysics").hide();
+                   $("#aGeogrophy").hide();
+                   $("#aMedia").hide();
+                   $("#aEcon").hide();
+                   $("#aBusiness").hide();
+                   $("#aAccount").hide();
+                   $("#aLogic").show();
+    });
+                    $("#aGeographyL").click(function(){
+                   $("#home").hide();
+                   $("#oScience").hide();
+                   $("#oSinhala").hide();
+                   $("#oHistory").hide();
+                   $("#aBiology").hide();
+                    $("#aChemistry").hide();
+                   $("#aPhysics").hide();
+                   $("#aLogic").hide();
+                   $("#aMedia").hide();
+                   $("#aEcon").hide();
+                   $("#aBusiness").hide();
+                   $("#aAccount").hide();
+                   $("#aGeogrophy").show();
+    });
+
+                    $("#aMediaL").click(function(){
+                   $("#home").hide();
+                   $("#oScience").hide();
+                   $("#oSinhala").hide();
+                   $("#oHistory").hide();
+                   $("#aBiology").hide();
+                    $("#aChemistry").hide();
+                   $("#aPhysics").hide();
+                   $("#aLogic").hide();
+                   $("#aGeogrophy").hide();
+                   $("#aEcon").hide();
+                   $("#aBusiness").hide();
+                   $("#aAccount").hide();
+                   $("#aMedia").show();
+    });
+                    $("#aEconL").click(function(){
+                   $("#home").hide();
+                   $("#oScience").hide();
+                   $("#oSinhala").hide();
+                   $("#oHistory").hide();
+                   $("#aBiology").hide();
+                    $("#aChemistry").hide();
+                   $("#aPhysics").hide();
+                   $("#aLogic").hide();
+                   $("#aGeogrophy").hide();
+                   $("#aMedia").hide();
+                   $("#aBusiness").hide();
+                   $("#aAccount").hide();
+                   $("#aEcon").show();
+    });
+
+
+                    $("#aBusinessL").click(function(){
+                   $("#home").hide();
+                   $("#oScience").hide();
+                   $("#oSinhala").hide();
+                   $("#oHistory").hide();
+                   $("#aBiology").hide();
+                    $("#aChemistry").hide();
+                   $("#aPhysics").hide();
+                   $("#aLogic").hide();
+                   $("#aGeogrophy").hide();
+                   $("#aMedia").hide();
+                   $("#aEcon").hide();
+                   $("#aAccount").hide();
+                   $("#aBusiness").show();
+    });
+                    $("#aAccountsL").click(function(){
+                   $("#home").hide();
+                   $("#oScience").hide();
+                   $("#oSinhala").hide();
+                   $("#oHistory").hide();
+                   $("#aBiology").hide();
+                    $("#aChemistry").hide();
+                   $("#aPhysics").hide();
+                   $("#aLogic").hide();
+                   $("#aGeogrophy").hide();
+                   $("#aMedia").hide();
+                   $("#aEcon").hide();
+                   $("#aBusiness").hide();
+                   $("#aAccounts").show();
+    });
+
+});
+
+
+ 
+            

@@ -1,0 +1,268 @@
+@CHARSET "ISO-8859-1";
+body {
+    padding-top: 15px;
+    background-color: #66CCFF;
+}
+
+
+
+
+body {
+    margin-top: 50px;
+    /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+
+/* grid system via getbootstrap.com/examples/grid/grid.css */
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fdw-post a.demolink {
+    color: #f4f4f4;
+    background: #f47e7e;
+    font-weight: bold;
+    padding: 8px 25px 8px 25px;
+    margin-left: 5px;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    border-radius: 4px;
+    border: solid 0 #e3edf4;
+    border-bottom: 2px solid #e76969;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+h4 {
+    margin-top: 25px;
+}
+
+.btn-center {
+    margin-left: 41%;
+}
+
+header h1.logo {
+    margin: 0;
+    padding: 5px 0;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    float: left;
+    color: transparent;
+    -moz-transition: all .2s ease-in .2s;
+    -o-transition: all .2s ease-in .2s;
+    -webkit-transition: all .2s ease-in .2s;
+    transition: all .2s ease-in .2s;
+}
+
+.navbar-inverse {
+    background-color: #66CCFF;
+    border-color: #f6f6f6;
+}
+
+.navbar-default {
+	background-color: #333366;
+    border-color: #F6F6F6;
+}
+
+div.footer-copyright {
+    background: #316441 url(pattern.png) repeat center center !important;
+}
+
+
+
+.header {
+    clear: both;
+    border-top: 5px solid #f6f6f6;
+    background: #f6f6f6;
+    background: -moz-linear-gradient(top, #f6f6f6 0, #fff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f6f6f6), color-stop(100%, #fff));
+    background: -webkit-linear-gradient(top, #f6f6f6 0, #fff 100%);
+    background: -o-linear-gradient(top, #f6f6f6 0, #fff 100%);
+    background: -ms-linear-gradient(top, #f6f6f6 0, #fff 100%);
+    background: linear-gradient(to bottom, #f6f6f6 0, #fff 100%);
+    min-height: 100px;
+    padding: 8px 0;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.row .row {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+[class*="col-"] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    background-color: rgba(86, 61, 124, .15);
+    border: 1px solid rgba(86, 61, 124, .2);
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.header-image {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('http://placehold.it/1900x500') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.headline {
+    padding: 120px 0;
+}
+
+.headline h1 {
+    font-size: 130px;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.headline h2 {
+    font-size: 77px;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.featurette-divider {
+    margin: 80px 0;
+}
+
+.featurette {
+    overflow: hidden;
+    margin-top: 35px;
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+.featurette-heading {
+    font-size: 50px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+@media(max-width:1200px) {
+    .headline h1 {
+        font-size: 140px;
+    }
+    .headline h2 {
+        font-size: 63px;
+    }
+    .featurette-divider {
+        margin: 50px 0;
+    }
+    .featurette-image.pull-left {
+        margin-right: 20px;
+    }
+    .featurette-image.pull-right {
+        margin-left: 20px;
+    }
+    .featurette-heading {
+        font-size: 35px;
+    }
+}
+
+@media(max-width:991px) {
+    .headline h1 {
+        font-size: 105px;
+    }
+    .headline h2 {
+        font-size: 50px;
+    }
+    .featurette-divider {
+        margin: 40px 0;
+    }
+    .featurette-image {
+        max-width: 50%;
+    }
+    .featurette-image.pull-left {
+        margin-right: 10px;
+    }
+    .featurette-image.pull-right {
+        margin-left: 10px;
+    }
+    .featurette-heading {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:768px) {
+    .container {
+        margin: 0 15px;
+    }
+    .featurette-divider {
+        margin: 40px 0;
+    }
+    .featurette-heading {
+        font-size: 25px;
+    }
+}
+
+@media(max-width:668px) {
+    .headline h1 {
+        font-size: 70px;
+    }
+    .headline h2 {
+        font-size: 32px;
+    }
+    .featurette-divider {
+        margin: 30px 0;
+    }
+}
+
+@media(max-width:640px) {
+    .headline {
+        padding: 75px 0 25px 0;
+    }
+    .headline h1 {
+        font-size: 60px;
+    }
+    .headline h2 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:375px) {
+    .featurette-divider {
+        margin: 10px 0;
+    }
+    .featurette-image {
+        max-width: 100%;
+    }
+    .featurette-image.pull-left {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .featurette-image.pull-right {
+        margin-bottom: 10px;
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+

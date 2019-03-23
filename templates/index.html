@@ -1,0 +1,77 @@
+{% extends "layout.html"%}
+{% block title %}Index{% endblock %}
+{% block head %}
+  {{ super() }}
+  <style type="text/css">
+
+  </style>
+{% endblock %}
+{% block content %}
+
+
+<div class="container" style="background-color:;">
+
+    <div class="row">
+        <div class="col-lg-6">
+            <div class="col-lg-12" style="padding-top:0px;">
+                <h2>Instructions</h2>
+                <hr style="border: 0.5px solid #047A52;">
+                <label>Step 01</label>
+                <p style="padding-left:20px;">Layout the one spoon of pepper sample on top of white cotton clothe.</p>
+                <label>Step 02</label>
+                <p style="padding-left:20px;">Place one rupee coin on left side.</p>
+                <label>Step 03</label>
+                <p style="padding-left:20px;">Take a image and upload .</p>
+                <img src="static/image/311.jpg" alt="sample image" class="img-thumbnail" style="height:200px; width:280px; ">
+                <h3 style="padding-left:50px">Enjoy your result !!!</h3>
+            </div>
+        </div>
+        <div class="col-lg-6" style="padding-top:40px;">
+            <div class="col-lg-6" style="border: 2px solid #047A52; float:none; margin: auto; text-align:center; border-radius:18px; padding-bottom:30px";>
+                <div class="row">
+                    <h3> Upload your pepper image here !!!</h3>
+                    <form class="md-form" method="POST" action="/predict" enctype="multipart/form-data" class="container">
+                        <div class="col-lg-12" style="background-color:">
+                            <hr style="border: 0.5px solid #047A52;">
+                            {%if error %}
+                            <div class="alert alert-danger">
+                                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                <strong>Warning!</strong> {{error}}
+                            </div>
+                            {%endif%}
+                            <div class="box" style="border: 2px solid #047A52; border-radius:5px;">
+                                <div class="file-field">
+                                    <div class="d-flex justify-content-center">
+                                        <div class="btn btn-mdb-color btn-rounded float-left">
+                                            <input type="file" id ="file" name="file">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <br/>
+                        <button type="submit" class="btn btn-danger btn-block">Predict</button>
+                        </div>
+                    </form>
+
+                </div>
+             </div>
+        </div>
+
+    </div>
+
+
+</div>
+<!-- /.container -->
+<!--<div class="footer-copyright">
+    <div class="container">
+        <div class="row">
+            <br/><p>
+                © Copyright 2018. All Rights Reserved.
+            </p>
+        </div>
+    </div>
+</div>-->
+{% endblock %}
+{% block footer %}
+ {{ super() }}
+{% endblock %}
